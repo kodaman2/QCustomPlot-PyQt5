@@ -7,9 +7,11 @@ from PyQt5.QtCore import PYQT_CONFIGURATION
 import sipconfig
 
 
-DEFAULT_QMAKE = '/usr/bin/qmake'
-DEFAULT_MAKE = '/usr/bin/make'
-DEFAULT_QT_INCLUDE = '/usr/include/qt'
+#DEFAULT_QMAKE = '/usr/bin/qmake'
+DEFAULT_QMAKE= 'C:/Qt/Qt5.12.3/5.12.3/mingw73_32/bin/'
+#DEFAULT_MAKE = '/usr/bin/make'
+DEFAULT_MAKE = 'C:/Program Files (x86)/GnuWin32/bin/'
+DEFAULT_QT_INCLUDE = 'C:/Qt/Qt5.12.3/5.12.3/mingw73_32/include/'
 ROOT = abspath(dirname(__file__))
 BUILD_STATIC_DIR = join(ROOT, 'lib-static')
 
